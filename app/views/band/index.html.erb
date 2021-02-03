@@ -1,0 +1,7 @@
+<h1>メンバー募集のページ</h1>
+<% @bands.each do |band| %>
+    <div class="bands-index-item">
+        <%= band.post_title %>
+        <%= band.content %>
+    </div>
+<% end %>

@@ -28,13 +28,15 @@
     background-color: burlywood;
     padding:30px;
     text-align: center;
-    .signup {
+    .btn-danger {
         margin-right: 50px;
     }
     .post-btn {
         margin-top: 50px;
-        .band {
-            margin-right: 50px;
+        .btn-primary {
+            background-color: darkorange;
+            color: white;
+            margin: 25px;
         }
     }
 }

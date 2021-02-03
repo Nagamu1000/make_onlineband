@@ -9,11 +9,15 @@
 </div>
 <div class="btns">
     <div class="user-btn">
-        <button class="signup" type="button" class="btn btn-danger">新規登録</button>
-        <button class="login" type="button" class="btn btn-success">ログイン</button>
+        <button type="button" class="btn btn-danger">新規登録</button>
+        <button type="button" class="btn btn-success">ログイン</button>
     </div>
     <div class="post-btn">
-        <button class="band" type="button" class="btn btn-primary">バンドを探す</button>
-        <button class="member" type="button" class="btn btn-primary">メンバーを探す</button>
+        <button type="button" class="btn btn-primary"><%= link_to("バンドを探す", "/band/index") %></button>
+        <button type="button" class="btn btn-primary">メンバーを探す</button>
+    </div>
+    <div class="new-btn">
+        <button type="button" class="btn btn-primary"><%= link_to("メンバーを募集する人", "/band/new") %></button>
+        <button type="button" class="btn btn-primary"><%= link_to("加入希望を出す人", "/band/index") %></button>
     </div>
 </div>
